@@ -8,9 +8,40 @@
     <title>Weather App</title>
 </head>
 <body>
-     
-     <div>
-        Hello, Jay!
+     <div class="card">
+        <div class="search">
+            <input class="input" spellcheck="false" type="text" placeholder="Search city name">
+            <button class="btn"><img src="./images/search.png" alt="" ></button>
+        </div>
+        <p class="invalid"> Invalid city</p>
+        <div class="detail hide">
+            
+            <div class="img">
+                <img class="cloud" src="./images/clouds.png" alt="">
+            </div>
+            
+            <h1 class="temp"> 18°c</h1>
+            <h2 class="city">kolkata</h2>
+           <div class="box">
+            <div class="col-1">
+                <div class="img1">
+                    <img src="./images/humidity.png" alt="">
+                </div>
+                <div class="hm">
+                    <h1 class="humidity">90%</h1>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="img2">
+                    <img src="./images/wind.png" alt="">
+                </div>
+                <div class="wd">
+                    <h1 class="wind">2.665 km/h</h1>
+                    <p>Wind speed</p>
+                </div>
+            </div>
+           </div>
      </div>
     
     <script src="main .js"></script>
